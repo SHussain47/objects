@@ -105,5 +105,20 @@ const str = "The, quick, fox, escaped";
 console.log(str); // Takes a string and splits it into an array based on a character you choose
 console.log(str.split(","));
 
+// -------------------------------------------------------------------------------------------------------- //
+const numsArr = [
+  [1, 2, 3],
+  [4, 5, 6],
+]; 
+
+console.log(numsArr[0][1]);
+
+// nested loops
+for (let i = 0; i < numsArr.length; i++) {
+  for (let j = 0; j < numsArr[i].length; j++) {
+    console.log(numsArr[i][j]);
+  }
+}
+
 
 
